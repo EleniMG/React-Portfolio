@@ -2,37 +2,43 @@
     {
         "id": 1,
         "name": "Wallet Wizard",
-        "image": "../../screenshots/wallet-wizard2.png",
-        "description": "Agile Group Project. Main Languages and Techniques: HTML, JavaScript, CSS, REST APIs, Asynchronous Functions, Day.js, jQuery, Bootstrap, Local Storage data"
+        "image": "../../src/screenshots/wallet-wizard2.png",
+        "description": "Agile Group Project. Main Languages and Techniques: HTML, JavaScript, CSS, REST APIs, Asynchronous Functions, Day.js, jQuery, Bootstrap, Local Storage data",
+        "link": "https://wallet-wizard.github.io/finance/"
     },
     {
         "id": 2,
         "name": "Weather Dashboard",
-        "image": "../../screenshots/weather-dashboard2.png",
-        "description": "Main Languages and Techniques: HTML, JavaScript, CSS, Third Party APIs, Asynchronous Functions, Day.js, jQuery, Bootstrap, Local Storage data"
+        "image": "../../src/screenshots/weather-dashboard2.png",
+        "description": "Main Languages and Techniques: HTML, JavaScript, CSS, Third Party APIs, Asynchronous Functions, Day.js, jQuery, Bootstrap, Local Storage data",
+        "link": "https://elenimg.github.io/Weather-Dashboard/"
     },
     {
         "id": 3,
         "name": "Daily Planner",
-        "image": "../../screenshots/daily-planner.png",
-        "description": "- Main Languages and Techniques: HTML, JavaScript, CSS, setInterval, Day.js, jQuery, Bootstrap, Local Storage data"
+        "image": "../../src/screenshots/daily-planner.png",
+        "description": "- Main Languages and Techniques: HTML, JavaScript, CSS, setInterval, Day.js, jQuery, Bootstrap, Local Storage data",
+        "link": "https://elenimg.github.io/Daily-Planner-App/"
     },
     {
         "id": 4,
         "name": "Sign-Up Form",
-        "image": "../../screenshots/Sign-up-page.png",
-        "description": "Main Languages and Techniques: HTML, JavaScript, CSS Flexbox and Grid, Dynamic and User Action Pseudo-Classes, Transform, Keyframes, Media Queries, Form Input Elements, Form Validation, Pattern Validation using Regex, Custom Fonts, Randomisation"
+        "image": "../../src/screenshots/Sign-up-page.png",
+        "description": "Main Languages and Techniques: HTML, JavaScript, CSS Flexbox and Grid, Dynamic and User Action Pseudo-Classes, Transform, Keyframes, Media Queries, Form Input Elements, Form Validation, Pattern Validation using Regex, Custom Fonts, Randomisation",
+        "link": "https://sign-up-form-by-eleni.netlify.app/"
     },
     {
         "id": 5,
         "name": "Coding Quiz",
-        "image": "../../screenshots/coding-quiz.png",
-        "description": "Main Languages and Techniques: HTML, JavaScript, DOM manipulation, setInterval, Local Storage data, JSON stringify and parse, Game Logic"
+        "image": "../../src/screenshots/coding-quiz.png",
+        "description": "Main Languages and Techniques: HTML, JavaScript, DOM manipulation, setInterval, Local Storage data, JSON stringify and parse, Game Logic",
+        "link": "https://elenimg.github.io/Coding-Quiz/"
     },
     {
         "id": 6,
         "name": "Calculator",
-        "image": "../../screenshots/Calculator.png",
-        "description": "Main Languages and Techniques: HTML, JavaScript functions for operators and calculations, CSS Flexbox and Grid, Repeating Linear Gradient, Event Listeners, Alerts"
+        "image": "../../src/screenshots/Calculator.png",
+        "description": "Main Languages and Techniques: HTML, JavaScript functions for operators and calculations, CSS Flexbox and Grid, Repeating Linear Gradient, Event Listeners, Alerts",
+        "link": "https://calculator-by-eleni.netlify.app/"
     }
 ]
