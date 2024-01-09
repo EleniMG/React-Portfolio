@@ -8,8 +8,10 @@ function Contact(){
         <Header />
         <div className='contact-section'>
             <h1>You can contact me here:</h1>
-            <p>LinkedIn: https://www.linkedin.com/in/eleni-giannopoulos/</p>
-            <p>GitHub: https://github.com/EleniMG</p>
+            <div className='socials-logos'>
+                <a href="https://www.linkedin.com/in/eleni-giannopoulos/" target='_blank'><img src="./src/images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="LinkedIn Logo" id="linkedin-logo"/></a>
+                <a href="https://github.com/EleniMG" target='_blank'><img src="./src/images/github-logo.png" alt="GitHub Logo" id="github-logo" /></a>
+            </div>
         </div>
     </>
     )

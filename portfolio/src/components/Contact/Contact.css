@@ -1,3 +1,18 @@
 .contact-section {
     margin-top: 50px;
 }
+#linkedin-logo {
+    height: 115px;
+}
+
+#github-logo {
+    height: 75px;
+}
+
+.socials-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
