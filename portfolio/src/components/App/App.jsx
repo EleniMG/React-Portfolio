@@ -4,6 +4,7 @@ import Header from "../Header/Header.jsx"
 import Homepage from "../Homepage/Homepage.jsx"
 import Contact from "../Contact/Contact.jsx"
 import ProjectsPage from "../ProjectsPage/ProjectsPage.jsx"
+import HighlightedProject from "../HighlightedProject/HighlightedProject.jsx"
 
 function App() {
 
@@ -11,8 +12,8 @@ function App() {
     <div>
       <Header />
       <Homepage />
-      <ProjectsPage />
-      <Contact />
+      {/* <ProjectsPage /> */}
+      {/* <Contact /> */}
     </div>
   )
 }

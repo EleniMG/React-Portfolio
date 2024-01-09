@@ -1,10 +1,12 @@
 import React from 'react'
+import "./project.css"
+
 
 function Project(props){
     return (
         <div className="card">
           <div className="img-container">
-            <img alt={props.name} src={props.image} />
+            <img className="image" alt={props.name} src={props.image} />
           </div>
           <div className="content">
             <ul>
@@ -22,5 +24,7 @@ function Project(props){
         </div>
       );
 }
+
+
 
 export default Project

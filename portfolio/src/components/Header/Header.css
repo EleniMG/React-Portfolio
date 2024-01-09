@@ -1,6 +1,6 @@
 .navbar{
     top: 0;
     left: 0;
-    position: fixed;
+    position: fixed !important;
     width: 100%;
 }
