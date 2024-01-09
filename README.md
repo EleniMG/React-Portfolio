@@ -11,7 +11,7 @@ Open the [React Portfolio](https://elenimg.github.io/react-portfolio)
 
 Click on any of the links in the navigation bar to look at any of my projects and my contact information. Enjoy!
 
-![Deployed App](../React-Portfolio/portfolio/src/screenshots/App-Screenshot.png)
+![Deployed App](portfolio/src/screenshots/App-Screenshot.png)
 
 
 ## Credits
