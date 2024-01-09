@@ -17,10 +17,10 @@ function Project(props){
                 <strong>Name:</strong> {props.name}
               </li>
               <li>
-                <strong>Link:</strong> {props.link}
+                <strong>Link:</strong> <a href={props.link} target="_blank">Click Here!</a>
               </li>
               <li>
-                <strong>GitHub Repository:</strong> {props.github}
+                <strong>GitHub Repository:</strong> <a href={props.github} target="_blank">Click Here!</a>
               </li>
               <li>
                 <strong>Description:</strong> {props.description}
