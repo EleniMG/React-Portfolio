@@ -16,20 +16,18 @@ function Header(){
           {/* <a className="nav-link active" aria-current="page" href="/">Home</a> */}
           <Link to="/" className='nav-link'>Home</Link>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#about-me">About Me</a>
-        </li>
         <li className="nav-item dropdown">
+            {/* <Link to="/projects" className="nav-link dropdown-toggle">Projects</Link> */}
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Projects
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Project 1</a></li>
-            <li><a className="dropdown-item" href="#">Project 2</a></li>
-            <li><a className="dropdown-item" href="#">Project 3</a></li>
-            <li><a className="dropdown-item" href="#">Project 4</a></li>
-            <li><a className="dropdown-item" href="#">Project 5</a></li>
-            <li><a className="dropdown-item" href="#">Project 6</a></li>
+            <li><Link to="/projects/1" className="nav-link dropdown-item">Wallet Wizard</Link></li>
+            <li><Link to="/projects/2" className="nav-link dropdown-item">Weather Dashboard</Link></li>
+            <li><Link to="/projects/3" className="nav-link dropdown-item">Daily Planner</Link></li>
+            <li><Link to="/projects/4" className="nav-link dropdown-item">Sign-Up Form</Link></li>
+            <li><Link to="/projects/5" className="nav-link dropdown-item">Coding Quiz</Link></li>
+            <li><Link to="/projects/6" className="nav-link dropdown-item">Calculator</Link></li>
           </ul>
         </li>
         <li className="nav-item">

@@ -1,24 +1,25 @@
 import React from "react"
 import projectData from "../Project/project.json"
+import Project from "../Project/Project"
+import { useParams } from "react-router-dom";
 
 function HighlightedProject() {
-    // const highlightedProject = projectData.find((id) => id = {props.id})
+    const { id } = useParams();
+    const highlightedProject = projectData.find((project) => Number(id) === project.id)
     
-    if (id === 1){
-        return (
-            <Project
-                key={project.id}
-                name={project.name}
-                image={project.image}
-                description={project.description}
-                link={project.link}
-            />
-        )
+    if (!highlightedProject) {
+        return <p>No project with this id</p>
     }
-
-    // return (
-    //     highlightedProject
-    // )
+    
+    return (
+        <Project
+            name={highlightedProject.name} 
+            image={highlightedProject.image}
+            description={highlightedProject.description}
+            github={highlightedProject.github}
+            link={highlightedProject.link}
+        />
+    )
 }
 
 export default HighlightedProject

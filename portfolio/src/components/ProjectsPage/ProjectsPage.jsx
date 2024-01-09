@@ -7,12 +7,13 @@ import { Link } from 'react-router-dom';
 function ProjectsPage(){
     return (
         projectData.map((project) => (
-            <Link to={`/project/${project.id}`}>
+            <Link to={`/projects/${project.id}`}>
             <Project
                 key={project.id}
                 name={project.name}
                 image={project.image}
                 description={project.description}
+                github={project.github}
                 link={project.link}
             />
             </Link> 
