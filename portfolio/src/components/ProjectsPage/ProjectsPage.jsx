@@ -2,6 +2,7 @@ import React from 'react'
 import Project from '../Project/Project';
 import projectData from "../Project/project.json"
 import { Link } from 'react-router-dom';
+import "./ProjectsPage.css"
 
 
 function ProjectsPage(){

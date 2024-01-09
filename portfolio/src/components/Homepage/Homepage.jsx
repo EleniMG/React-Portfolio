@@ -1,12 +1,15 @@
 import React from 'react'
-import HighlightedProject from '../HighlightedProject/HighlightedProject'
 import Header from '../Header/Header'
+import "./Homepage.css"
 
 function Homepage(){
     return (
         <>
         <Header />
-        <h1>Eleni G</h1>
+        <h1>Hello, there! 👋</h1>
+        <h2>My name is Eleni Giannopoulos and I am a software developer. Welcome to my Portfolio, created with React.</h2>
+
+        <img src="../../src/images/curly-hair.jpg" alt="Curly-haired cartoon character" />
         </>
     )
 }
