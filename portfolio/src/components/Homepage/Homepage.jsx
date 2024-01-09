@@ -4,13 +4,14 @@ import "./Homepage.css"
 
 function Homepage(){
     return (
-        <>
-        <Header />
-        <h1>Hello, there! 👋</h1>
-        <h2>My name is Eleni Giannopoulos and I am a software developer. Welcome to my Portfolio, created with React.</h2>
+        <div className='homepage'>
+            <Header />
+            
+            <h1>Hello, there! 👋</h1>
+            <h2>My name is Eleni Giannopoulos and I am a software developer. Welcome to my Portfolio, created with React.</h2>
 
-        <img src="../../src/images/curly-hair.jpg" alt="Curly-haired cartoon character" />
-        </>
+            <img src="../../src/images/curly-hair.jpg" alt="Curly-haired cartoon character" />
+        </div>
     )
 }
 
