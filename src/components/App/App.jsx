@@ -12,8 +12,6 @@ function App() {
     <div>
       <Header />
       <Homepage />
-      {/* <ProjectsPage /> */}
-      {/* <Contact /> */}
     </div>
   )
 }
