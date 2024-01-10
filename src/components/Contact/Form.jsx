@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Form.css"
 
 function Form() {
   // Setting the component's initial state
@@ -51,22 +52,23 @@ function Form() {
           name="firstName"
           onChange={handleInputChange}
           type="text"
-          placeholder="First Name"
+          placeholder="*First Name"
         />
         <input
           value={formData.lastName}
           name="lastName"
           onChange={handleInputChange}
           type="text"
-          placeholder="Last Name"
+          placeholder="*Last Name"
         />
         <input
           value={formData.email}
           name="email"
           onChange={handleInputChange}
           type="text"
-          placeholder="Email"
+          placeholder="*Email"
         />
+        <br />
         <input
           value={formData.message}
           name="message"
