@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import "./Homepage.css"
+import curlyHairImage from '../../images/curly-hair.jpg'
 
 function Homepage(){
     return (
@@ -12,7 +13,7 @@ function Homepage(){
 
             <p>I am a self-taught developer, with experience in using HTML, CSS, JavaScript, Regular Expressions, Bootstrap, jQuery, REST APIs, Node.js, of course, React!</p>
 
-            <img src="../src/images/curly-hair.jpg" alt="Curly-haired cartoon character" />
+            <img src={curlyHairImage} alt="Curly-haired cartoon character" />
         </div>
     )
 }

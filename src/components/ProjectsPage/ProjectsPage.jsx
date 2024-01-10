@@ -1,12 +1,12 @@
 import React from 'react'
 import Project from '../Project/Project';
-import projectData from "../Project/project.json"
+import data from "../Project/project-data.js"
 import { Link } from 'react-router-dom';
 
 
 function ProjectsPage(){
     return (
-        projectData.map((project) => (
+        data.map((project) => (
             <Link to={`/projects/${project.id}`}>
             <Project
                 key={project.id}

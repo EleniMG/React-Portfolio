@@ -1,11 +1,11 @@
 import React from "react"
-import projectData from "../Project/project.json"
-import Project from "../Project/Project"
+import data from "../Project/project-data.js"
+import Project from "../Project/Project.jsx"
 import { useParams } from "react-router-dom";
 
 function HighlightedProject() {
     const { id } = useParams();
-    const highlightedProject = projectData.find((project) => Number(id) === project.id)
+    const highlightedProject = data.find((project) => Number(id) === project.id)
     
     if (!highlightedProject) {
         return <p>No project with this id</p>
