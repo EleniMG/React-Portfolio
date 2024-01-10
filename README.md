@@ -7,7 +7,7 @@ My aim with this project was to create a portfolio based on my past projects usi
 
 ## Usage
 
-Open the [React Portfolio](https://elenimg.github.io/react-portfolio)
+Open the [React Portfolio](react-eleni-mg.netlify.app)
 
 Click on any of the links in the navigation bar to look at any of my projects and my contact information. Enjoy!
 
